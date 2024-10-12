@@ -1,0 +1,34 @@
+{
+    "name": "omira-jyotish/basejyotish",
+    "description": "PHP library for calculations in Vedic astrology",
+    "keywords": [
+        "jyotish", "vedic astrology", "ganita", "jataka", "muhurta", "panchanga"
+    ],
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "belyaevad",
+            "email": "belyaevad@gmail.com",
+            "homepage": "#"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "kunjara/swetest": "master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jyotish\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
